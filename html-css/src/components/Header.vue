@@ -3,23 +3,53 @@
 </script>
 
 <template>
-<div class="container">
-    <div>
-  <b-navbar toggleable="sm" type="light" variant="light">
-    <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <router-link to="/" tag="a" class="link">Anasayfa</router-link>
+                </li>
+                <li>
+                    <router-link to="/form" tag="a" class="link">Form</router-link>
+                </li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul>
+        </div>
 
-    <b-navbar-brand>BootstrapVue</b-navbar-brand>
-
-    <b-collapse id="nav-text-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-text>Navbar text</b-nav-text>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
-</div>
-</div>
-
+    </nav>
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+nav {
+    width: 100%;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
 </style>
