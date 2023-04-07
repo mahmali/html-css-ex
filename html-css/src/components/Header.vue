@@ -12,6 +12,9 @@
                 <li>
                     <router-link to="/form" tag="a" class="link">Form</router-link>
                 </li>
+                <li>
+                    <router-link to="/html" tag="a" class="link">Html-Css</router-link>
+                </li>
                 <li><a href="contact.asp">Contact</a></li>
                 <li><a href="about.asp">About</a></li>
             </ul>

@@ -6,7 +6,7 @@ import Header from './components/Header.vue'
 <template>
   <div id="app">
     <Header></Header>
-
+    
     <router-view />
   </div>
 </template>
