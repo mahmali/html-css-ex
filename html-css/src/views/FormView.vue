@@ -26,8 +26,8 @@
             <div class="form-row">
                 <label for="sehir">Şehir</label>
                 <select name="sehir" id="sehir">
-                    <option value="Elazığ">Elazığ</option>
-                    <option value="Isparta" selected>Isparta</option>
+                    <option value="Elazığ">Afyon</option>
+                    <option value="Isparta" selected>Ankara</option>
                     <!-- selected yazılan optionun seçili olarak gelmesini sağlar -->
                 </select>
             </div>
@@ -108,6 +108,9 @@ button{
     width: auto;
     border: 0;
 }
-button[type="su"]
+button[type="submit"]{
+    background-color: cornflowerblue;
+    color: white;
+}
 
 </style>
