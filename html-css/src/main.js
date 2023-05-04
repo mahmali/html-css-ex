@@ -16,6 +16,11 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
+import { BButtonGroup } from 'bootstrap-vue'
+Vue.component('b-button-group', BButtonGroup)
+import { ButtonGroupPlugin } from 'bootstrap-vue'
+Vue.use(ButtonGroupPlugin)
+
 new Vue({
   router,
   render: (h) => h(App)

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FormView from '../views/FormView.vue'
 import Html from '../views/html.vue'
+import BoxSizing from '../components/html/BoxSizing.vue'
 
 Vue.use(VueRouter)
 
@@ -32,6 +33,11 @@ const router = new VueRouter({
       path: '/html',
       name: 'Html-Css',
       component: Html
+    },
+    {
+      path: '/boxsizing',
+      name: 'Box-Sizing',
+      component: BoxSizing
     }
   ]
 })
